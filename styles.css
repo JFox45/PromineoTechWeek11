@@ -1,0 +1,63 @@
+.container {
+    width: 300px;
+    overflow: hidden;
+    margin: 50px auto 0 auto;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+.container .box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    transition: all .25s ease-in-out;
+    font-size: 85px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.container span{
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.container .box:hover {
+    background: blue;
+    color: black;
+}
+
+.btn {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    display: block;
+    border: solid;
+    justify-content: center;
+}
+
+.row {
+    width: 300px;
+}
+
+#main {
+    max-width: 300px;
+}
+
+#btnRow {
+    justify-content: center;
+}
+
+#alert {
+    display: none;
+}
